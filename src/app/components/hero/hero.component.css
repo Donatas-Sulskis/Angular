@@ -1,0 +1,26 @@
+.container {
+  margin-bottom: 2rem;
+}
+
+.container .image {
+  background: linear-gradient(
+      to right,
+      rgba(59, 162, 255, 0.9),
+      rgba(105, 99, 255, 0.8)
+    ),
+    url("https://www.spruko.com/demo/pinlist/LTR/Pinlist/assets/images/banners/auction.jpg");
+  background-size: cover;
+  padding: 12rem 0;
+}
+
+.container h1 {
+  color: rgb(255, 255, 255);
+  padding-left: 1.5rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    margin: 0 auto;
+    width: 83%;
+  }
+}

@@ -1,0 +1,36 @@
+.container {
+  padding: 1rem;
+}
+
+h2,
+p {
+  color: rgb(0, 0, 0, 0.8);
+  word-wrap: break-word;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+img {
+  height: 15rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  border-radius: 10px;
+  background-color: rgb(238, 238, 238);
+  color: rgb(0, 0, 0, 0.8);
+  padding: 0.5rem;
+}
+
+.price {
+  color: rgb(0, 0, 0, 0.8);
+}

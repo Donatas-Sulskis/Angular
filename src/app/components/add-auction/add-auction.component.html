@@ -1,0 +1,42 @@
+<form (ngSubmit)="onSubmit()">
+  <div class="error">{{ error }}</div>
+  <div class="success">{{ success }}</div>
+  <div class="half">
+    <div class="image-container">
+      <label for="image">Image (url) <span>*</span></label>
+      <input
+        type="url"
+        placeholder="Link to Your Item Image"
+        required
+        name="image"
+        id="image"
+        [(ngModel)]="image"
+      />
+    </div>
+
+    <div class="name-container">
+      <label for="name">Name <span>*</span></label>
+      <input
+        type="text"
+        placeholder="Your Item Name"
+        required
+        name="name"
+        id="name"
+        [(ngModel)]="name"
+        maxlength="20"
+      />
+    </div>
+  </div>
+
+  <label for="description">Description <span>*</span></label>
+  <textarea
+    placeholder="Description of Your Item"
+    required
+    name="description"
+    id="description"
+    [(ngModel)]="description"
+    maxlength="500"
+  ></textarea>
+
+  <button type="submit">Add</button>
+</form>

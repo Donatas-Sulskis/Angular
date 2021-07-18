@@ -1,0 +1,14 @@
+<nav>
+  <a routerLink="/">
+    <img
+      src="https://i.pinimg.com/474x/7d/9c/1f/7d9c1fb259e09760c50fc9f336ffe21f.jpg"
+      alt="company logo"
+    />
+  </a>
+  <ul>
+    <li>
+      <a routerLink="/" [ngClass]="hasRoute('/')">Home</a>
+    </li>
+    <li><a routerLink="/add" [ngClass]="hasRoute('/add')">Add Auction</a></li>
+  </ul>
+</nav>
